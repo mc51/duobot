@@ -1,0 +1,21 @@
+[project]
+    name            = "duobot"
+    version         = "0.1.0"
+    description     = "Duobot is a complete command line automation for the Duolingo app"
+    authors         = [{ name = "MC51 (Michael)", email = "mc51@users.noreply.github.com" }]
+    dependencies    = ["click==8.1.7", "python-dotenv==1.0.1", "requests==2.32.3"]
+    readme          = "README.md"
+    requires-python = ">= 3.10"
+
+[build-system]
+    requires      = ["hatchling"]
+    build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+    packages = ["duobot/"]
+
+[tool.rye]
+    managed = true
+
+[project.scripts]
+    duobot = "duobot.main:cli"

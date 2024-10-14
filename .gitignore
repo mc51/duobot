@@ -1,0 +1,19 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.mypy_cache/
+assets/old/
+
+# venv
+.venv
+.python-version
+.vscode/
+tmp/
+tmp*
+auth*
+.env
+*.lock
