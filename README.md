@@ -14,7 +14,14 @@ https://github.com/user-attachments/assets/d3a4daf8-cc8d-4a94-992e-1ba53496eb81
 > This is an educational project. Use it at your own risk, as your Duolingo account might get banned.  
 > Please don't abuse this in any way.  
 
-First, clone the repo and `cd` into the folder. Then, install the package with: `pip install .`
+First, clone the repo and `cd` into the folder. Then, create a virtual environment, activate it and install the package via pip:
+
+```
+python -m venv venv/
+. venv/bin/activate
+pip install .
+```
+
 Then, find your Duolingo app user id and a valid authorization token. Put them in a `.env` file in the root directory containing:
 
 ```
