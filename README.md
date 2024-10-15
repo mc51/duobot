@@ -1,5 +1,10 @@
 # Duobot is a complete and working command line automation for the Duolingo app
 
+<p align="center">
+  <img width="200" src="/assets/logo.webp">
+</p>
+
+
 # What is it?
 
 Duobot is a complete and working command line automation for the Duolingo app written in Python. It travels the learning path of your currently active language course for you. Field by field it solves lessons, solves stories, and opens chests. Moreover, it collects XP and gems, improves your league position, contributes to daily quests and keeps your streak alive.
