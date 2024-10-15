@@ -40,7 +40,9 @@ You can follow the progress Duobot makes by closing and opening the Duolingo app
 
 # How does it work?
 
-We reverse engineered the API of the official Duolingo Android app. To do so, we investigated how actions in the app are translated into API requests and responses. Finally, we automated all relevant requests to create a very close replicate of real user interactions with the app.
+There's a [blog post](https://data-dive.com/duobot-automating-duolingo-by-reverse-engineering-android-app/) on this. In short:  
+We reverse engineered the API of the official Duolingo Android app. To do so, we investigated how actions in the app are translated into API requests and responses. Finally, we automated all relevant requests to create a very close replicate of real user interactions with the app.  
+
 
 # Why?
 
